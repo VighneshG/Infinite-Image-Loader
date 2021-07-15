@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  padding-top: 100px;
+  font-family: "Orbitron", sans-serif;
+  background-color: rgb(24, 24, 24);
+  letter-spacing: 5px;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 1.5%;
+  /* margin-bottom: 1%; */
+  text-align: center;
+  color: gold;
+}
+
+/* h4 {
+  position: relative;
+  text-align: right;
+  color: deepskyblue;
+} */
+
+.header {
+  background-color: rgba(0, 119, 255, 0.562);
+  position: fixed;
+  width: 100%;
+  height: auto;
+  top: 0%;
+  left: 0%;
+}
+
+/* Loader */
+
+.loader {
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+
+.image-container {
+  margin: 1.5% 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Media Query - Smart Phones*/
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 17px;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+  body {
+    padding-top: 50px;
+  }
+}
